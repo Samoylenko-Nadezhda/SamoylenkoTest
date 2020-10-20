@@ -1,0 +1,53 @@
+.open-menu {
+    display: none;
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 99%;
+}
+
+.open-menu__step {
+    display: flex;
+    margin-right: 40px;
+}
+
+.open-menu__step-items__men-women {
+    display: flex;
+}
+
+.open-menu__step-items {
+    padding-left: 0;
+}
+
+.open-menu__step-items__men-women {
+    padding-left: 0;
+}
+
+.open-menu__step-items__list__men-women__list {
+    padding-left: 0;
+}
+
+.open-menu__step-list {
+    margin-right: 120px;
+    margin-bottom: 40px;
+}
+
+.open-menu__step-list:last-child {
+    margin-right: 0;
+}
+
+.man-women {
+    margin-top: 0;
+}
+
+.women {
+    margin-left: 20px;
+}
+
+.open-menu__step-items__list {
+    color: var(--dark-gray);
+    padding-bottom: 10px;
+}
+
+.step2, .step3, .step4 {
+    display: none;
+}
